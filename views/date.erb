@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
-  
-<h1>Today</h1>
-<%= time = Date.today
 
-<p> The date is <%= time.strftime("%A") %>, <%= time.strftime("%B") %> <%= time.day %>, <%= time.year %></p>
+  <body>
+    <% time = Date.today %>
+
+    <h1>The date is <%= time.strftime("%A") %>, <%= time.strftime("%B") %> <%= time.day %>, <%= time.year %></h1>
+
+  </body>
+
 </html>
